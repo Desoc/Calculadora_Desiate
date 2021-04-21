@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="..\boostrap\bootstrap.css"><!-- BOOTSTRAP  -->
+
+    <script src="..\jquery\jquery-3.5.1.slim.min.js"></script><!-- JQUERY  -->
+
+    <script src="..\jquery\popper.min.js"></script><!-- POPPER  -->
+
+    <script src="..\js\bootstrap.min.js"></script><!-- BOOTSTRAP  -->
+
+    <link rel="stylesheet" href="..\css\calculadora.css"><!-- CSS  -->
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">Calculadora Javascript</span>
+    </nav>
+    <!-- Fin Navbar -->
+
+    <div class="centrado">
+        <form>
+            <label>Ingrese el primer numero</label><br>
+            <input type="number" id="num1" required/>
+            <br>
+            <label>Ingrese el segundo numero</label><br>
+            <input type="number" id="num2" required/>
+            <br><br>
+            <select name="select" id="opcion" class="form-control inp">
+                <option disabled selected value="All">Seleccione una operacion...</option>
+                <option>Sumar</option>
+                <option>Restar</option>
+                <option>Multiplicar</option>
+                <option>Dividir</option>
+            </select>
+            <br>
+            <button class="btn btn-outline-success" id="enviar">Calcular</button>
+        </form>
+    </div>
+    <br>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small teal pt-4">
+        <!-- Footer Text -->
+        <div class="container-fluid text-center ">
+            Octavio Desiate
+        </div>
+    </footer>
+    <!-- Fin Footer -->
+
+    <script type='text/javascript' src="..\js\main.js"></script><!-- Javascript -->
+</body>
+
+</html>
